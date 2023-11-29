@@ -1,0 +1,209 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffbbdd;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-family: "Times New Roman", serif;
+    font-style: italic;
+    color: #fffdfd;
+}
+
+
+.logoImg {
+    
+  
+    float: left; /* Move o elemento para a esquerda */
+}
+
+
+
+
+
+.titulo {
+    margin-left: 120px; 
+}
+
+
+.logoImg img {
+    
+    
+height: 100px;
+}
+
+nav {
+    background-color: #f0b0d0;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: background-color 0.3s; /*  essa é para Adiciona uma transição suave na mudança de cor de fundo */
+}
+nav a:hover {
+    background-color: #d890ba; 
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 60px; 
+
+    padding: 20px;
+    align-items: flex-start; /* Alinhar itens ao início da linha */
+}
+
+.produto {
+    border: 1px solid #e5e5e5;
+    background-color: #f0f0f0;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave na propriedade transform */
+}
+.produto:hover {
+    
+    
+    transform: scale(1.1); /* Aumenta a escala quando o cursor está sobre o produto */
+}
+
+.produtoImagem img {
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.preco {
+    font-weight: bold;
+    color: #333;
+}
+
+    
+
+
+footer {
+    background-color: #ffbbdd;
+    padding: 2x;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1; 
+   
+}
+.detalhes {
+    background-color: #b8b8b8; /* Cor do plano de fundo */
+    
+   
+padding: 10px; 
+}
+
+.detalhes p {
+    margin-bottom: 10px; 
+}
+
+.detalhes .preco {  
+font-weight: bold;  
+color: #151414;
+display: block; /* Garante que o preço tenha uma nova linha abaixo do parágrafo */
+}
+
+
+
+/*pagina contato*/
+.cont-h1 {
+    
+    
+text-align: center;
+    color: #333;
+}
+
+
+
+form { 
+max-width: 500px;
+margin: 20px auto;
+padding: 30px;
+background-color: #fff;   
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label { 
+display: block;
+ margin-bottom: 8px;
+color: #555;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+margin-bottom: 16px;
+box-sizing: border-box;
+
+}
+
+button {
+background-color: #ed83b8;
+color: #fff; 
+padding: 10px 220px;
+border: none;
+cursor: pointer;
+font-size: 16px;
+
+}
+
+button:hover {
+    background-color: #d890ba;
+}
+button.center-button {
+display: block;  
+margin: 0 auto;
+margin-bottom: 10px;
+
+
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.checkbox-label input {
+    margin-right: 5px;
+}
+
+

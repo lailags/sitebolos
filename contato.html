@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Confeitaria Maria Chocolate</title>
+	<link rel="stylesheet" href="/css/estilo.css">
+</head>
+<body>
+    <!--header -->
+	<header>
+		<div class="logoImg">
+			<img src="imagens/logo.png" alt="Maria Chocolate" height="100" />
+		</div>
+		<div class="titulo">
+			<h1>Confeitando para a alegria da sua vida...</h1>
+		</div>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html" >Home</a></li>
+			<li><a href="bolos.html" >Bolos</a></li>
+			<li><a href="tortas.html" >Tortas</a></li>
+			<li><a href="festas.html" >Festas</a></li>
+			<li><a href="contato.html" >Contatos</a></li>			
+		</ul>
+	</nav>
+    <!--fim header -->
+
+    <!--conteudo site -->
+    <h1 class="cont-h1">Entre em Contato</h1>
+    <form id="formContato" action="#" method="post" >
+        <label for="nome">Nome:</label> 
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu Nome">
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required placeholder="Digite seu E-mail">
+
+        <label for="tipoContato">Tipo de Contato:</label>
+        <select id="tipoContato" name="tipoContato" required>
+            
+    
+<option value="elogio">Elogio</option>
+            
+  
+<option value="sugestao">Sugestão</option>
+            
+   
+<option value="reclamacao">Reclamação</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Digite aqui sua mensagem"></textarea>
+
+        <div class="container">
+            <div class="checkbox-label">
+                <input type="checkbox" id="receberMensagens" name="receberMensagens">
+                <label for="receberMensagens">Quero receber mensagens deliciosas</label>
+            </div>
+        <button type="submit" class="center-button">Enviar</button>
+      
+    </form>
+
+
+<!--footer-->
+    <footer>
+		<p>Desenvolvido como exercício da UC Usabilidade, Desenvolvimento Web, Mobile e Jogos. ©Copyright 2023. Todos os Direitos Reservados.</p>
+	</footer>
+	<script src="/js/main.js"></script>
+</body>
+</html>
